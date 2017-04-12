@@ -7,22 +7,8 @@
   <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css"> -->
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
-  $( function() {
-    $( "#slider" ).slider({
-      range: "min",
-      value: 37,
-      min: 1,
-      max: 500,
-      slide: function( event, ui ) {
-        $( "#amount" ).val( "$" + ui.value );
-		$( "#dummy-slider,#slider-bg").css('width',ui.value);
-      }
-    });
-    $( "#amount" ).val( "$" + $( "#slider" ).slider( "value" ) );
-	
-  } );
-  </script>
+  <script src="./slideController.js"></script>
+  
 </head>
 <body>
  
