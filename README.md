@@ -1,1 +1,1 @@
-# TestGit_1
+# Slider demo
